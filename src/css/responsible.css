@@ -1,3 +1,39 @@
-@media (max-width: 1920px) {
-    
+@media (max-width: 1440px) {
+    body {
+        background-size: cover;
+        background-position: -80px 0;
+    }
+
+    .header img {
+        width: 250px;
+    }
+    .main-content img{
+        width: 720px;
+        height: 590px;
+    }
+    .hero-text {
+        width: 650px;
+        margin-left: 40px;
+    }
+
+    .hero-text .title {
+        width: 450px;
+        font-size: 4rem;
+    }
+
+    .hero-text .text {
+        font-size: 1.9rem;
+        margin-top: 45px;
+    }
+
+    .hero-text .btn {
+        font-size: 1.6rem;
+        padding: 15px 60px;
+    }
+
+    .social {
+        padding: 0;
+        margin-top: 50px;
+    }
 }
+
