@@ -1,7 +1,8 @@
 @media(max-width: 375px){
-    .body {
-        background: url(../images/bg-mobile.svg);
+    body {
+        background: var(--bg-color) url(../images/bg-mobile.svg) no-repeat;
     }
+    
     .container {
         max-width: 375px;
         padding: 30px;
@@ -16,7 +17,6 @@
     }
 
     .content img {
-        width: 100%;
         align-self: center;
         margin-bottom: 50px;
     }
