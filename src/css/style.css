@@ -6,6 +6,9 @@ body {
     background: url(../images/bg-desktop.svg) right no-repeat fixed;
     background-color: var(--bg-color);
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .container {
