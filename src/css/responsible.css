@@ -1,6 +1,6 @@
 @media(max-width: 375px){
     .body {
-        background: url(../images/bg-mobile.svg) no-repeat center top;
+        background: url(../images/bg-mobile.svg);
     }
     .container {
         max-width: 375px;
@@ -40,12 +40,13 @@
         align-self: center;
         font-size: 1.4rem;
         padding: 10px 70px;
+        margin-bottom: 60px;
     }
 
     .social {
         justify-content: center;
         gap: 10px;
-        margin-top: 60px;
+        margin: 0;
     }
 
     .social a {
