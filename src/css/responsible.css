@@ -1,15 +1,12 @@
-@media(max-width: 375px){
+@media(max-width: 768px){ 
     body {
         background: var(--bg-color) url(../images/bg-mobile.svg) no-repeat;
-    }
-    
-    .container {
-        max-width: 375px;
-        padding: 30px;
+        background-size: 100%;
     }
 
-    .header img {
-        width: 150px;
+    .container {
+        max-width: 768px;
+        padding: 30px;
     }
 
     .content {
@@ -26,6 +23,33 @@
         align-items: center;
         margin: 0;
     }
+
+    .info .title {
+        text-align: center;
+    }
+    
+    .info .text {
+        text-align: center;
+    }
+
+    .info .btn {
+        align-self: center;
+        padding: 15px 100px;
+        margin-bottom: 60px;
+    }
+
+    .social {
+        justify-content: center;
+        margin: 0;
+    }
+}
+
+@media(max-width: 375px){
+    
+    .header img {
+        width: 150px;
+    }
+
     .info .title {
         text-align: center;
         font-size: 2.5rem;
@@ -44,9 +68,7 @@
     }
 
     .social {
-        justify-content: center;
         gap: 10px;
-        margin: 0;
     }
 
     .social a {
