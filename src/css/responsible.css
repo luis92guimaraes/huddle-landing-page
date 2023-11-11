@@ -29,6 +29,7 @@
     }
     
     .info .text {
+        font-size: 2rem;
         text-align: center;
     }
 
@@ -46,8 +47,12 @@
 
 @media(max-width: 375px){
     
+    .header {
+        margin-bottom: 40px;
+    }
+
     .header img {
-        width: 150px;
+        width: 120px;
     }
 
     .info .title {
@@ -57,7 +62,7 @@
 
     .info .text {
         text-align: center;
-        font-size: 1.45rem;
+        font-size: 1.42rem;
     }
 
     .info .btn {
