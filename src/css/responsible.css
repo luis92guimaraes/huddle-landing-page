@@ -1,3 +1,11 @@
+@media(max-width: 1140px) {
+    .info .btn {
+        align-self: center;
+        padding: 15px 100px;
+        margin-bottom: 60px;
+    }
+}
+
 @media(max-width: 768px){ 
     body {
         background: var(--bg-color) url(../images/bg-mobile.svg) no-repeat;
@@ -26,6 +34,7 @@
 
     .info .title {
         text-align: center;
+        
     }
     
     .info .text {
@@ -62,7 +71,7 @@
 
     .info .text {
         text-align: center;
-        font-size: 1.42rem;
+        font-size: 1.45rem;
     }
 
     .info .btn {
